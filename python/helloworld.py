@@ -34,7 +34,7 @@ def main():
     c = fivetimesdictionary('shart')
     c['3'] = 'booger'
     print c
-    print fizzbuzz(20000)
+    print fizzbuzz(1000)
 
 
 if __name__ == '__main__':

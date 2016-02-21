@@ -71,7 +71,7 @@ var main = function() {
     var c = fiveTimesObject('shart');
     c['3'] = 'booger';
     console.log(c);
-    console.log(fizzBuzz(2000));
+    console.log(fizzBuzz(1000));
 };
 
 
