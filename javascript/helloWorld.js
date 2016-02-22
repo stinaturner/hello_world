@@ -3,6 +3,9 @@
 // Putting `'use strict';` at the beginning of a file or function tells
 // the JavaScript interpreter to throw errors instead of trying to
 // ignore certain minor syntax errors. Always use `'use strict';`.
+// Also JavaScript comments use `//` instead of `#`. Good code should
+// probably be mostly comments, not quite as bad as this file... but
+// something close to it.
 
 // Instead of `import`ing in JavaScript you use the `require` function.
 // This looks for `fizzBuzz.js` in the same directory as this file, and

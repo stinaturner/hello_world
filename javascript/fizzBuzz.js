@@ -1,4 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env node
+'use strict';
 
 
 var fizzBuzz = function(limit) {
@@ -9,7 +10,7 @@ var fizzBuzz = function(limit) {
         // In JavaScript the operands of an `if` statement have to go
         // between `()`. Also JavaScript uses `&&` instead of Python's
         // `and` and `||` instead of Python's `or`.
-        if (divisibleBy3(i) && divisibleBy5(i)) {
+        if (divisibleBy3(i) || divisibleBy5(i)) {
             x += i;
         }
     }

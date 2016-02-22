@@ -17,3 +17,4 @@ def divisible_by_3(x):
 def divisible_by_5(y):
     n = y % 5
     return n == 0
+
